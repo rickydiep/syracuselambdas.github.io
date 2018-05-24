@@ -99,7 +99,7 @@ a {
 }
 
 section {
-  padding: 85px 0;
+  padding: 25px 0;
 }
 
 .card {
@@ -139,7 +139,7 @@ a:hover {
   display: block;
   height: 3px;
   background:#ffffff;
-  margin;1OPX 0;
+  margin:1OPX 0;
   vertical-align: baseline;
 }
 .info_content{
@@ -206,7 +206,6 @@ a:hover {
   clear: both;
   list-style: none;
   margin: 0;
-  pad
 }
 
 .full_selection_inner{
@@ -225,6 +224,11 @@ a:hover {
 
 }
 
+.container{
+  outline: none;
+  
+}
+
 .column_inner{
   box-sizing: border-box;
   padding-left: 15px;
@@ -239,11 +243,12 @@ a:hover {
 .bro_box{
   width: 460px;
   height: 200px;
+  margin-right: 50px; 
 }
-/*.bro_info{
-  width:296.66px;
-  height: 202px;
-}*/
+.bro_info{
+  margin-left: 5px;
+  line-height: 20px;
+}
 /* ==================================================
   Hero Styling
 ================================================== */
@@ -294,12 +299,13 @@ a:hover {
   color: #fff;
 }
 
+
 /* ==================================================
   Header Styling
 ================================================== */
 #header {
   background: #ffffff;
-  height: 70px;
+  height: 120px;
 }
 
 #header #logo {
@@ -417,14 +423,35 @@ a:hover {
 }
 
 /* Nav Meu Container */
-#nav-menu-container {
+.nav-menu-container {
   margin: 0;  
+  background-color: #848688;
 }
 
 @media (max-width: 768px) {
   #nav-menu-container {
     display: none;
   }
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  }
+
+.low_menu{
+  background-color: #848688;
+  vertical-align: middle;
+  margin: 0 auto;
+  height: 0px;
+
+
+}
+.low_menu-container{
+  position: relative;
+  display: inline-block;
+  left: auto;
+  float: none;
 }
 
 /* Nav Meu Styling */
@@ -452,6 +479,9 @@ a:hover {
 .nav-menu ul li {
   background: #fff;
   border-top: 1px solid #f4f4f4;
+  display: inline-block;
+  text-align: center;
+
 }
 
 .nav-menu ul li:first-child {
@@ -471,6 +501,7 @@ a:hover {
   -o-transition: none;
   transition: none;
   padding: 10px 15px;
+  display: inline;
 }
 
 .nav-menu ul li a:hover {
