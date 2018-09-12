@@ -255,7 +255,7 @@ a:hover {
 .hero {
   display: table;
   position: relative;
-  background-image: url(../img/cover.jpg);
+  background-image: url(../img/new_header.jpg);
   background-size: cover;
   padding: 150px 0;
   color: #fff;
@@ -426,6 +426,11 @@ a:hover {
 .nav-menu-container {
   margin: 0;  
   background-color: #848688;
+}
+
+#bg1::after {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.65);
 }
 
 @media (max-width: 768px) {
@@ -667,7 +672,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   ================================================== */
 .block {
   color: #fff;
-  height: 490px;
+  height: 550px;
   overflow: hidden;
   padding-top: 85px;
 }
@@ -766,6 +771,24 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-top: none;
 }
 
+#bg1{
+    background-image: url(../img/bg1.jpg);
+    background-position: center;
+}
+
+#bg2{
+    background-image: url(../img/bg2.jpg);
+    background-position: 60% 40%;
+}
+
+#bg3{
+    background-image: url(../img/bg3.jpg);
+    background-position: 65% 35%;
+}
+
+#distance{
+  
+}
 /* ==================================================
   Call-to-action Styling
   ================================================== */
@@ -1106,6 +1129,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .site-footer .credits a {
   color: #199EB8;
 }
+
 
 /* ==================================================
   Responsive Styling
