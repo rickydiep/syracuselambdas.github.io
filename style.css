@@ -1,0 +1,38 @@
+#home{
+    height: 400px;
+    background-color: lightblue;
+}
+
+h1,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+}
+i{
+    font-weight: 500;
+    font-size: 30px;
+    color: #d44500;
+}
+h1{
+    font-weight: 500;
+    letter-spacing: 3px;
+    
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+}
+
+button{
+    font-family: 'Raleway', sans-serif;
+}
+
+#sign-up{
+    background-color: #D44500;
+    border: #D44500;
+}
+
+.separator {
+    position: relative;
+    display: block;
+    height: 1px;
+    background-color: white;
+}
