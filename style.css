@@ -60,6 +60,7 @@ button{
 
 .canva{
     height: 400px;
+    background-size: cover;
 
 }
 
@@ -77,3 +78,22 @@ button{
 #recognition{
     height:auto;
 }
+
+@media screen and (max-width: 1000px) {
+   #front-banner{
+     flex-direction: column;
+     align-items: center;
+    }
+    #home{
+        height: 680px;
+    }
+    #rush-video{
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+     #home{
+         height: 750px;
+     }
+   }
