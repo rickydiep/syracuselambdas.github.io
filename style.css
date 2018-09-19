@@ -57,6 +57,11 @@ button{
 #about{
     height:1000px;
 }
+#instagram{
+    height: auto;
+    width: 100%;
+    
+}
 
 .canva{
     height: 400px;
@@ -78,6 +83,7 @@ button{
 #recognition{
     height:auto;
 }
+
 
 @media screen and (max-width: 1000px) {
    #front-banner{
